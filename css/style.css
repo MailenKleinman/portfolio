@@ -1150,7 +1150,7 @@ footer .credits a {
 }
 
 .button:hover {
-  background-color: #0062d3;
+  background-color: #858585;
   color: #fff;
   transition: all 500ms ease;
 }
@@ -1271,4 +1271,8 @@ footer .credits a {
 }
 .lato {
   font-family: 'Lato', sans-serif;
+}
+.counter-text {
+  color: #fff;
+  text-align: center;
 }
