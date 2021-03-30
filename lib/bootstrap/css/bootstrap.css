@@ -2375,7 +2375,7 @@ fieldset:disabled a.btn {
 .btn-secondary:hover {
   color: #fff;
   background-color: #5a6268;
-  border-color: #545b62;
+  border-color: #7e7e7eb4;
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
@@ -2391,7 +2391,7 @@ fieldset:disabled a.btn {
 .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #545b62;
+  background-color: #7e7e7eb4;
   border-color: #4e555b;
 }
 
@@ -4808,7 +4808,7 @@ input[type="button"].btn-block {
 .badge-secondary[href]:hover, .badge-secondary[href]:focus {
   color: #fff;
   text-decoration: none;
-  background-color: #545b62;
+  background-color: #7e7e7eb4;
 }
 
 .badge-success {
@@ -6089,7 +6089,7 @@ button.bg-primary:focus {
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
-  background-color: #545b62 !important;
+  background-color: #7e7e7eb4 !important;
 }
 
 .bg-success {
@@ -8866,7 +8866,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
-  color: #545b62 !important;
+  color: #7e7e7eb4 !important;
 }
 
 .text-success {
