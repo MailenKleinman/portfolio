@@ -476,13 +476,17 @@ a:hover {
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
   background-color: #fff;
-  padding-top: 15px;
+  padding-top: 20px;
   padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 30px;
+  justify-content: space-around;
 }
 
 .navbar-b.navbar-reduce .nav-link {
   color: #858585;
 }
+
 
 .navbar-b.navbar-reduce .nav-link:before {
   background-color: #858585;
@@ -522,7 +526,7 @@ a:hover {
 }
 
 .navbar-b .dropdown-menu {
-  margin: 1.12rem 0 0;
+  margin: 1.12rem;
   border-radius: 0;
 }
 
@@ -672,8 +676,8 @@ a:hover {
 ======================================*/
 
 .about-mf .box-shadow-full {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .about-mf .about-img {
@@ -707,8 +711,15 @@ a:hover {
 .service-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
+  padding-bottom: 1rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
+}
+
+.service-box:hover {
+  transition: all 500ms ease;
+  box-shadow: 0 0 0 rgb(230, 230, 230)AEAEA;
+  transform: scale(1.1); 
 }
 
 .service-box:hover .ico-circle {
@@ -729,10 +740,9 @@ a:hover {
 }
 
 .service-box .s-title {
-  font-size: 1.4rem;
-  text-transform: uppercase;
+  font-size: 1.1rem;
   text-align: center;
-  padding: .4rem 0;
+  margin: 0.7rem;
 }
 
 .service-box .s-description {
@@ -1275,4 +1285,21 @@ footer .credits a {
 .counter-text {
   color: #fff;
   text-align: center;
+}
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+.montserratlight {
+  font-family: 'Montserrat', sans-serif;
+}
+.transparentbutton {
+  background-color: rgba(255, 255, 255, 0.219);
+  color: #e6e6e6;
+  margin-top: 3%;
+  border-color: white;
+  font-size: 12px;
+}
+
+.transparentbutton:hover {
+  background-color: rgba(255, 255, 255, 0.445);
 }
