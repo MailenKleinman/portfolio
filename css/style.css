@@ -1293,8 +1293,8 @@ footer .credits a {
   font-family: 'Montserrat', sans-serif;
 }
 .transparentbutton {
-  background-color: rgba(255, 255, 255, 0.219);
-  color: #e6e6e6;
+  background-color: rgba(65, 65, 65, 0.356);
+  color: #ffffff;
   margin-top: 3%;
   border-color: white;
   font-size: 12px;
@@ -1302,4 +1302,5 @@ footer .credits a {
 
 .transparentbutton:hover {
   background-color: rgba(255, 255, 255, 0.445);
+  color: #1e1e1e;
 }
